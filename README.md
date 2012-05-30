@@ -10,9 +10,10 @@ sabnma
 
 ## usage:
 
-* Download both sabnma.py and the PyNMA zip from above. Unzip PyNMA and place sabnma.py alongside test.py.
+* Download both sabnma.py and the PyNMA zip from above.
+* Unzip PyNMA and place sabnma.py alongside test.py.
 * Set API key at the base of the script. ([NMA][nmaapi])
-* Place directory inside SABnzbd+ scripts path and set as post-processing script.
+* Place files (pynma directory too) inside SABnzbd+ scripts path and set as post-processing script.
 
 ## notes:
 
