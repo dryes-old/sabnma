@@ -1,7 +1,7 @@
 sabnma
 =====
 
-* sabnma is a SABnzbd+ post-processing script to notify with NMA [Notify My Android][nma].
+* sabnma is a SABnzbd+ post-processing script to notify with NMA ([Notify My Android][nma]).
 
 ## dependencies:
 
