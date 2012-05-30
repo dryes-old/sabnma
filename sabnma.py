@@ -8,6 +8,8 @@
 ## 5	User-defined category
 ## 6	Group that the NZB was posted in e.g. alt.binaries.x
 ## 7	Status of post processing. 0 = OK, 1=failed verification, 2=failed unpack, 3=1+21
+##
+## priority: from -2 (lowest) to 2 (highest) (def:0)
 
 from pynma import PyNMA
 from pprint import pprint
@@ -30,8 +32,8 @@ def main(argv, apikey):
        	status = 'Failed Unpack + Verification'
     else:
     	status = 'Failed'
-    
-    res = p.push('SABnzbd+', message, status)
+
+    res = p.push('SABnzbd+', message, status, priority=0)
     pprint(res)
     
 if __name__ == '__main__':
